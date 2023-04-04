@@ -25,6 +25,7 @@ main {
     margin-top: 3rem;
 }
 
+
 header {
     text-align: center;
     margin: auto 2rem;
@@ -55,4 +56,12 @@ i {
 
 #mainLeft {
     border-right: 1px solid lightgray;
+}
+
+
+#projectHeader {
+    text-align: left;
+    margin: auto 2rem;
+    display: grid;    /* css grid 사용 */
+    grid-template-columns: 95% 5%;
 }
