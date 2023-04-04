@@ -80,3 +80,38 @@ i {
     -webkit-box-shadow: inset 0 0 20px #636161;
     box-shadow: inset 0 0 20px #636161;
 }
+
+.projectTitle {
+  margin: auto 2rem;
+  margin-top: 30px;
+}
+
+
+.period-mark {
+  color: #3a7bd5;
+}
+
+.row {
+  display: flex;
+  border-bottom: 1px solid #eeeeee;
+}
+  
+.row-left {
+  flex-basis: 18rem;
+  flex-shrink: 0;
+}
+  
+.row-right {
+  flex-grow: 1;
+}
+.role {
+  display: block;
+}
+.project {
+  padding: 1.5rem 0;
+}
+  
+.time {
+  display: block;
+  margin-bottom: 1.5rem;
+}
