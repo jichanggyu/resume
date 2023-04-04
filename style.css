@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 body {
-    max-width: 1400px;    /* 최대 너비 */
+    max-width: 1200px;    /* 최대 너비 */
     margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
     font-family: "Noto Sans KR", "Nanum Gothic";        /* 글꼴 - 웹 폰트 */
     font-size:14px;     /* 글자 크기 */
@@ -21,7 +21,7 @@ h2 {
 
 main {
     display: grid;    /* css grid 사용 */
-    grid-template-columns: 40% 60%; /* 왼쪽 40%, 오른쪽 60% */
+    grid-template-columns: 50% 50%; /* 왼쪽 40%, 오른쪽 60% */
     margin-top: 3rem;
 }
 
